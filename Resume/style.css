@@ -1,0 +1,43 @@
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0.5in;
+    width: 8.5in;
+    height: 12in;
+    background-color: white;
+    box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    color: rgb(8, 9, 9);
+    border-style: solid;
+    border-color: rgb(58, 185, 205);
+    background-color: rgb(58, 185, 205);
+}
+
+h1 {
+    padding-top: 1px;
+    padding-bottom: auto;
+    color: rgb(9, 9, 9);
+}
+
+.heading {
+    border-style: solid;
+    border-color: rgb(58, 185, 205);
+    background-color: rgb(58, 185, 205);
+}
+
+
+/*#skill {
+    border-style: solid;
+    border-color: rgb(58, 185, 205);
+    background-color: rgb(58, 185, 205);
+    border-radius: 50%;
+    border: 10px;
+    width: 70px;
+    height: 30px;
+}*/
+
+.experience {
+    font-size: medium
+}
