@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+    <script src='script.js'></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="display">
+            <input id="result" type="text" />
+        </div>
+        <table>
+            <tr>
+                <th><button type="button" value="%" onclick="Calc('%')">%</button></th>
+                <th><button type="button" value="CE" onclick="Clear()">CE</button></th>
+                <th><button type="button" value="C" onclick="Clear()">C</button></th>
+                <th><button type="button" value="←" onclick="back('←')">←</button></th>
+
+            </tr>
+
+            <tr>
+                <th><button type="button" value="1/x" onclick="Calc('1/x')">1/x</button></th>
+                <th><button type="button" value="x^2" onclick="Calc('x^2')">x<sup>2</sup></button></th>
+                <th><button type="button" value="√" onclick="Calc('√')"><span>&#8730;</span>x</button></th>
+                <th><button type="button" value="/" onclick="Solve('/')"><span>&#247;</span></button></th>
+            </tr>
+
+            <tr>
+                <th><button type="button" value="7" onclick="Solve('7')">7</button></th>
+                <th><button type="button" value="8" onclick="Solve('8')">8</button></th>
+                <th><button type="button" value="9" onclick="Solve('9')">9</button></th>
+                <th><button type="button" value="x" onclick="Solve('*')">x</button></th>
+            </tr>
+            <tr>
+                <th><button type="button" value="4" onclick="Solve('4')">4</button></th>
+                <th><button type="button" value="5" onclick="Solve('5')">5</button></th>
+                <th><button type="button" value="6" onclick="Solve('6')">6</button></th>
+                <th><button type="button" value="-" onclick="Solve('-')">-</button></th>
+            </tr>
+            <tr>
+                <th><button type="button" value="1" onclick="Solve('1')">1</button></th>
+                <th><button type="button" value="2" onclick="Solve('2')">2</button></th>
+                <th><button type="button" value="3" onclick="Solve('3')">3</button></th>
+                <th><button type="button" value="+" onclick="Solve('+')">+</button></th>
+            </tr>
+            <tr>
+                <th><button type="button" value="+/-">+/-</button></th>
+                <th><button type="button" value="0" onclick="Solve('0')">0</button></th>
+                <th><button type="button" value="." onclick="Solve('.')">.</button></th>
+                <th><button id="equal" type="button" value="=" onclick="Result()">=</button></th>
+            </tr>
+        </table>
+
+
+
+
+    </div>
+</body>
+
+</html>
